@@ -1,0 +1,14 @@
+{
+  "extends": "standard",
+  "globals": {
+    "fetch": true,
+    "describe": true,
+    "it": true,
+    "expect": true,
+    "jest": true,
+    "test": true
+  },
+  "rules": {
+  },
+  "parser": "babel-eslint"
+}

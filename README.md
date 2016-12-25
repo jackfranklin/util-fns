@@ -1,0 +1,17 @@
+- reduce
+- pick
+- merge
+- omit
+- isFunction
+- forEach
+- some
+- reduce
+- sortBy
+- debounce
+- keys
+- sum
+- get
+- values
+- assign
+- isUndefined
+- isString
