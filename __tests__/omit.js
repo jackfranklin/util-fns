@@ -1,3 +1,4 @@
+// @flow
 import { omit } from '../index'
 
 test('it omits items from objects', () => {
