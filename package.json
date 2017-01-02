@@ -1,10 +1,13 @@
 {
   "name": "util-fns",
   "version": "0.1.0",
-  "description": "Utility functoins for JS.",
+  "description": "Utility functions for JS.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "babel src/ -d lib && npm run flow-prepublish",
+    "flow-prepublish": "flow-copy-source src lib",
+    "lint": "eslint src"
   },
   "keywords": [
     "utils"
@@ -24,6 +27,7 @@
     "eslint-plugin-promise": "3.4.0",
     "eslint-plugin-standard": "2.0.1",
     "flow-bin": "0.37.4",
+    "flow-copy-source": "1.1.0",
     "flow-typed": "2.0.0",
     "jest": "18.0.0"
   }
