@@ -7,7 +7,8 @@
     "test": "jest",
     "prepublish": "babel src/ -d lib && npm run flow-prepublish",
     "flow-prepublish": "flow-copy-source src lib",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "test-all": "npm run lint && flow && npm run test"
   },
   "keywords": [
     "utils"
