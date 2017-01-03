@@ -11,6 +11,10 @@
     "lint": "eslint src",
     "test-all": "npm run lint && flow && npm run test"
   },
+  "files": [
+    "src",
+    "lib",
+  ],
   "keywords": [
     "utils"
   ],
