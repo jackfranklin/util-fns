@@ -4,6 +4,7 @@
   "description": "Utility functions for JS.",
   "main": "index.js",
   "scripts": {
+    "setup": "npm install && flow-typed install",
     "test": "jest",
     "prepublish": "babel src/ -d lib && npm run flow-prepublish",
     "flow-prepublish": "flow-copy-source src lib",
