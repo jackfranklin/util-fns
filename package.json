@@ -1,8 +1,8 @@
 {
   "name": "util-fns",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Utility functions for JS.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "setup": "npm install && flow-typed install",
     "test": "jest",
