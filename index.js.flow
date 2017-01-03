@@ -1,4 +1,0 @@
-// @flow
-
-declare export function isFunction(func: any): boolean;
-declare export function omit(obj: Object, excludes: Array<any>): Object;
