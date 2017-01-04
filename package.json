@@ -6,7 +6,8 @@
   "scripts": {
     "setup": "npm install && flow-typed install",
     "test": "jest",
-    "prepublish": "babel src/ -d lib && npm run flow-prepublish",
+    "prepublish": "npm run babel-prepublish && npm run flow-prepublish",
+    "babel-prepublish": "babel src/ -d lib",
     "flow-prepublish": "flow-copy-source src lib",
     "lint": "eslint src",
     "test-all": "npm run lint && flow && npm run test"
